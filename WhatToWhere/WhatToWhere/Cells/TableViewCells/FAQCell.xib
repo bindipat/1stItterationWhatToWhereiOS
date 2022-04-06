@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DMSans-Bold.ttf">
+            <string>DMSans-Bold</string>
+        </array>
+        <array key="DMSans-Regular.ttf">
+            <string>DMSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FAQCell" rowHeight="140" id="VPj-bu-ynk" customClass="FAQCell" customModule="WhatToWhere" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VPj-bu-ynk" id="dSY-kx-ImG">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdi-NH-VRR">
+                        <rect key="frame" x="20" y="10" width="374" height="21"/>
+                        <fontDescription key="fontDescription" name="DMSans-Bold" family="DM Sans" pointSize="16"/>
+                        <color key="textColor" name="Black"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQA-fB-3hR">
+                        <rect key="frame" x="20" y="51" width="374" height="79"/>
+                        <fontDescription key="fontDescription" name="DMSans-Regular" family="DM Sans" pointSize="16"/>
+                        <color key="textColor" name="Black"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="mdi-NH-VRR" secondAttribute="trailing" constant="20" id="7w6-Rt-hqM"/>
+                    <constraint firstItem="VQA-fB-3hR" firstAttribute="leading" secondItem="dSY-kx-ImG" secondAttribute="leading" constant="20" id="9SU-xq-BIy"/>
+                    <constraint firstItem="VQA-fB-3hR" firstAttribute="top" secondItem="mdi-NH-VRR" secondAttribute="bottom" constant="20" id="DiX-fu-ym2"/>
+                    <constraint firstItem="mdi-NH-VRR" firstAttribute="top" secondItem="dSY-kx-ImG" secondAttribute="top" constant="10" id="XMq-2Y-lc3"/>
+                    <constraint firstAttribute="trailing" secondItem="VQA-fB-3hR" secondAttribute="trailing" constant="20" id="dDc-hJ-GIJ"/>
+                    <constraint firstItem="mdi-NH-VRR" firstAttribute="leading" secondItem="dSY-kx-ImG" secondAttribute="leading" constant="20" id="l4b-Nc-bFD"/>
+                    <constraint firstAttribute="bottom" secondItem="VQA-fB-3hR" secondAttribute="bottom" constant="10" id="un9-S5-aeI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblAnswer" destination="VQA-fB-3hR" id="9J8-jq-NEQ"/>
+                <outlet property="lblQuestion" destination="mdi-NH-VRR" id="7w3-Hk-EOf"/>
+            </connections>
+            <point key="canvasLocation" x="-142.02898550724638" y="107.14285714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Black">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

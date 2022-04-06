@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WhatToWhere' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WhatToWhere
+  pod 'MBProgressHUD'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'Alamofire', '~> 5.2'
+  pod 'ReachabilitySwift'
+  pod 'CCBottomRefreshControl'
+  pod 'IQKeyboardManagerSwift'
+  pod 'ActionSheetPicker-3.0'
+  pod 'SwiftValidator', :git => 'https://github.com/jpotts18/SwiftValidator.git', :tag => '4.2.0'
+  pod 'SwiftyCodeView'
+  pod 'GoogleSignIn'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'GTMAppAuth'
+  pod 'FBSDKLoginKit'
+  pod 'FirebaseMessaging'
+  pod 'SwiftGifOrigin'
+  pod 'SwiftyJSON'
+  pod "RESegmentedControl"
+  pod 'Google-Mobile-Ads-SDK'
+  pod 'DPOTPView'
+end

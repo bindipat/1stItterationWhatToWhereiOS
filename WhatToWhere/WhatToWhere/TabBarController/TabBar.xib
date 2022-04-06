@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabBar" customModule="WhatToWhere" customModuleProvider="target">
+            <connections>
+                <outlet property="btnHome" destination="0SH-0G-OXf" id="GTW-5M-O8C"/>
+                <outlet property="btnNotification" destination="YSs-ke-02H" id="Mdx-tp-pcL"/>
+                <outlet property="btnProfile" destination="Whk-ae-F3y" id="kwI-os-3MO"/>
+                <outlet property="btnUploadPost" destination="AHi-IK-oTW" id="6JT-wX-V4J"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JEp-Je-hAS">
+                    <rect key="frame" x="15" y="0.0" width="345" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SH-0G-OXf">
+                            <rect key="frame" x="0.0" y="0.0" width="86.5" height="60"/>
+                            <state key="normal" image="active-home"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                    <size key="value" width="0.0" height="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btnHomeTabClicked:" destination="-1" eventType="touchUpInside" id="k6N-Eh-25X"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHi-IK-oTW">
+                            <rect key="frame" x="86.5" y="0.0" width="86" height="60"/>
+                            <state key="normal" image="in-active-camera"/>
+                            <connections>
+                                <action selector="btnUploadClicked:" destination="-1" eventType="touchUpInside" id="Njh-4l-qyc"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSs-ke-02H">
+                            <rect key="frame" x="172.5" y="0.0" width="86.5" height="60"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" image="in-active-notification"/>
+                            <connections>
+                                <action selector="btnNotificationTabClicked:" destination="-1" eventType="touchUpInside" id="CWO-xs-vE2"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whk-ae-F3y">
+                            <rect key="frame" x="259" y="0.0" width="86" height="60"/>
+                            <state key="normal" image="in-active-user"/>
+                            <connections>
+                                <action selector="btnProfileTabClicked:" destination="-1" eventType="touchUpInside" id="6sF-dt-0hr"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="White"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Whk-ae-F3y" secondAttribute="trailing" id="1W8-as-vWg"/>
+                        <constraint firstItem="YSs-ke-02H" firstAttribute="top" secondItem="JEp-Je-hAS" secondAttribute="top" id="3B3-eC-aSW"/>
+                        <constraint firstItem="YSs-ke-02H" firstAttribute="leading" secondItem="AHi-IK-oTW" secondAttribute="trailing" id="4x4-8f-Jv6"/>
+                        <constraint firstItem="YSs-ke-02H" firstAttribute="width" secondItem="0SH-0G-OXf" secondAttribute="width" id="DDt-90-Owa"/>
+                        <constraint firstItem="AHi-IK-oTW" firstAttribute="top" secondItem="JEp-Je-hAS" secondAttribute="top" id="DoZ-Dd-Snf"/>
+                        <constraint firstItem="AHi-IK-oTW" firstAttribute="width" secondItem="0SH-0G-OXf" secondAttribute="width" id="Fyk-22-AKL"/>
+                        <constraint firstItem="Whk-ae-F3y" firstAttribute="leading" secondItem="YSs-ke-02H" secondAttribute="trailing" id="H9X-tL-4KB"/>
+                        <constraint firstItem="0SH-0G-OXf" firstAttribute="top" secondItem="JEp-Je-hAS" secondAttribute="top" id="IFY-Ci-wHi"/>
+                        <constraint firstItem="Whk-ae-F3y" firstAttribute="top" secondItem="JEp-Je-hAS" secondAttribute="top" id="JFO-Y9-XI4"/>
+                        <constraint firstAttribute="bottom" secondItem="YSs-ke-02H" secondAttribute="bottom" id="JmP-wp-g05"/>
+                        <constraint firstItem="0SH-0G-OXf" firstAttribute="leading" secondItem="JEp-Je-hAS" secondAttribute="leading" id="NfG-Zy-Zba"/>
+                        <constraint firstItem="AHi-IK-oTW" firstAttribute="leading" secondItem="0SH-0G-OXf" secondAttribute="trailing" id="TdI-MI-2Cv"/>
+                        <constraint firstAttribute="bottom" secondItem="Whk-ae-F3y" secondAttribute="bottom" id="rlY-nU-boc"/>
+                        <constraint firstAttribute="bottom" secondItem="AHi-IK-oTW" secondAttribute="bottom" id="vLG-Fy-WKQ"/>
+                        <constraint firstItem="Whk-ae-F3y" firstAttribute="width" secondItem="0SH-0G-OXf" secondAttribute="width" id="vS2-Pt-sMI"/>
+                        <constraint firstAttribute="bottom" secondItem="0SH-0G-OXf" secondAttribute="bottom" id="zIE-Mv-BmH"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.01"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="0.29999999999999999"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                            <size key="value" width="3" height="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" name="Black"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JEp-Je-hAS" secondAttribute="trailing" constant="15" id="SY3-Bg-xjL"/>
+                <constraint firstItem="JEp-Je-hAS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="e8i-Bi-7Pn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="JEp-Je-hAS" secondAttribute="bottom" id="kxL-CG-rmI"/>
+                <constraint firstItem="JEp-Je-hAS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="laO-kJ-tPI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-184.80000000000001" y="123.68815592203899"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="active-home" width="64" height="50"/>
+        <image name="in-active-camera" width="64" height="50"/>
+        <image name="in-active-notification" width="64" height="50"/>
+        <image name="in-active-user" width="64" height="50"/>
+        <namedColor name="Black">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

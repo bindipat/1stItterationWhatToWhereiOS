@@ -1,0 +1,108 @@
+
+/* Class = "UILabel"; text = "Business profile"; ObjectID = "12m-hC-hO0"; */
+"12m-hC-hO0.text" = "Business profile";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "1N8-oc-YmC"; */
+"1N8-oc-YmC.text" = "OR";
+
+/* Class = "UIButton"; normalTitle = "website"; ObjectID = "1nX-Tu-crC"; */
+"1nX-Tu-crC.normalTitle" = "website";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "1xV-p7-7uU"; */
+"1xV-p7-7uU.normalTitle" = "Sign in";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "6hC-9R-0Gg"; */
+"6hC-9R-0Gg.normalTitle" = "Sign In";
+
+/* Class = "UILabel"; text = "Friday"; ObjectID = "7GG-d5-E2b"; */
+"7GG-d5-E2b.text" = "Friday";
+
+/* Class = "UILabel"; text = "Thursday"; ObjectID = "8Xo-KU-f19"; */
+"8Xo-KU-f19.text" = "Thursday";
+
+/* Class = "UIButton"; normalTitle = "     Continue with Apple"; ObjectID = "Au0-6Z-y35"; */
+"Au0-6Z-y35.normalTitle" = "     Continue with Apple";
+
+/* Class = "UILabel"; text = "gallery"; ObjectID = "Bh6-5t-bg8"; */
+"Bh6-5t-bg8.text" = "gallery";
+
+/* Class = "UILabel"; text = "Sunday"; ObjectID = "Ch8-NR-017"; */
+"Ch8-NR-017.text" = "Sunday";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "ElQ-ph-JEr"; */
+"ElQ-ph-JEr.text" = "Sign In";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "FzE-Bx-OgV"; */
+"FzE-Bx-OgV.text" = "About";
+
+/* Class = "UILabel"; text = "Already a member?"; ObjectID = "Hf8-oA-XPG"; */
+"Hf8-oA-XPG.text" = "Already a member?";
+
+/* Class = "UILabel"; text = "Don't Have account?"; ObjectID = "HlA-zM-8xW"; */
+"HlA-zM-8xW.text" = "Don't Have account?";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "JIK-dm-ItW"; */
+"JIK-dm-ItW.normalTitle" = "Sign Up";
+
+/* Class = "UILabel"; text = "Monday"; ObjectID = "Kp4-Aq-nJB"; */
+"Kp4-Aq-nJB.text" = "Monday";
+
+/* Class = "UIButton"; normalTitle = "message"; ObjectID = "NVV-hq-PHi"; */
+"NVV-hq-PHi.normalTitle" = "message";
+
+/* Class = "UILabel"; text = "Thursday"; ObjectID = "Nn1-Ep-gD1"; */
+"Nn1-Ep-gD1.text" = "Thursday";
+
+/* Class = "UILabel"; text = "Open now: 9am - 5pm"; ObjectID = "PMH-N8-C9R"; */
+"PMH-N8-C9R.text" = "Open now: 9am - 5pm";
+
+/* Class = "UILabel"; text = "Tuesday"; ObjectID = "RXM-bu-mIR"; */
+"RXM-bu-mIR.text" = "Tuesday";
+
+/* Class = "UILabel"; text = "Languages"; ObjectID = "TG7-AT-t0Q"; */
+"TG7-AT-t0Q.text" = "Languages";
+
+/* Class = "UILabel"; text = "Saturday"; ObjectID = "Tet-A6-oyJ"; */
+"Tet-A6-oyJ.text" = "Saturday";
+
+/* Class = "UILabel"; text = "Wednesday"; ObjectID = "UEQ-pB-d6I"; */
+"UEQ-pB-d6I.text" = "Wednesday";
+
+/* Class = "UIButton"; normalTitle = "     Continue with Apple"; ObjectID = "YfK-0K-2GD"; */
+"YfK-0K-2GD.normalTitle" = "     Continue with Apple";
+
+/* Class = "UILabel"; text = "Wednesday"; ObjectID = "ZLi-Ay-1ZA"; */
+"ZLi-Ay-1ZA.text" = "Wednesday";
+
+/* Class = "UILabel"; text = "Thursday"; ObjectID = "bl6-ox-25b"; */
+"bl6-ox-25b.text" = "Thursday";
+
+/* Class = "UILabel"; text = "Tuesday"; ObjectID = "duA-2S-BiO"; */
+"duA-2S-BiO.text" = "Tuesday";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "hT0-p3-pKz"; */
+"hT0-p3-pKz.normalTitle" = "Forgot Password?";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "ltt-eQ-gVP"; */
+"ltt-eQ-gVP.text" = "Address";
+
+/* Class = "UILabel"; text = "Monday"; ObjectID = "q6v-Ih-AL3"; */
+"q6v-Ih-AL3.text" = "Monday";
+
+/* Class = "UIButton"; normalTitle = "view map"; ObjectID = "qEG-QU-8cO"; */
+"qEG-QU-8cO.normalTitle" = "view map";
+
+/* Class = "UILabel"; text = "Saturday"; ObjectID = "tpv-g8-2RW"; */
+"tpv-g8-2RW.text" = "Saturday";
+
+/* Class = "UILabel"; text = "Sunday"; ObjectID = "uoP-n6-cDz"; */
+"uoP-n6-cDz.text" = "Sunday";
+
+/* Class = "UITextField"; placeholder = "Enter your email address"; ObjectID = "wYZ-uC-RNT"; */
+"wYZ-uC-RNT.placeholder" = "Enter your email address";
+
+/* Class = "UIButton"; normalTitle = "     Continue with Apple"; ObjectID = "wfg-tg-F0A"; */
+"wfg-tg-F0A.normalTitle" = "     Continue with Apple";
+
+/* Class = "UITextField"; placeholder = "**********"; ObjectID = "zFP-cL-wFs"; */
+"zFP-cL-wFs.placeholder" = "**********";
